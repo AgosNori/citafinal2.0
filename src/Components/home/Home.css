@@ -1,0 +1,426 @@
+.fotoprincipalHome {
+  margin-top: -0px;
+  height: 80vh;
+  background: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\Home1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parallax-inner-Home {
+  padding: 20% 0;
+  width: 50%;
+  display: flex;
+}
+
+.parallax-inner-Home h1 {
+  font-size: 30px;
+  color: #3a3a3a;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+
+.sembrar {
+  margin: 7em;
+
+}
+
+.btnSembrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 20px;
+}
+
+
+.btnHome  {
+  background-color: #6B030A;
+  width: 200px;
+  height: 50px;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.btnHomeSembrar button:hover {
+  background-color: #4b464688;
+}
+
+.textoHome .parrafoHome {
+  width: 80%;
+  font-size: 20px;
+  color: #555;
+  text-align: justify;
+  line-height: 30px;
+  margin: 60px 50px 40px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3) {
+  margin: 40px 50px;
+}
+
+.textoHome {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.ubiHome {
+  text-align: center;
+}
+
+.ubiHome img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 50px;
+}
+
+.btnHomeUbi {
+  background-color: #6B030A;
+  width: 200px;
+  height: 50px;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnHomeUbi:hover {
+  background-color: #6b030aca;
+}
+
+.video-container {
+  border-radius: 60px 0 60px 0;
+  width: 100%;
+  display: inline-flex;
+
+  background-color: #403d33;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 50%;
+  padding-top: 30%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  margin-left: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.novedadesHome .subtitulo {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.parrafo {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+
+.escribenos {
+  color: #333;
+  text-align: center;
+}
+
+
+
+.seccionEscribenos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+
+
+.parrafo-escribenos {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.btn-escribenos {
+  background-color: #6B030A;
+
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-escribenos:hover {
+  background-color: #6b030aca;
+}
+
+
+
+
+
+.canales {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  height: 200px;
+  margin-bottom: 80px;
+
+}
+
+
+.canales-ver {
+  text-align: center;
+
+}
+
+.canales-ver img {
+  width: 90px;
+}
+
+.canales-ver h6 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.btn-ver {
+  background-color: #6B030A;
+  color: #fff;
+  padding: 8px 36px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+
+
+.btn-ver:hover {
+
+  background-color: #6b030aca;
+}
+
+
+.reunionesIglesia h3 {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.infoMinisterios {
+  width: auto;
+  height: 300px;
+
+  background-color: #403D33;
+  border-radius: 70px 0 70px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.infoMinisterios p {
+  font-size: 20px;
+  margin: 60px;
+}
+
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 15px 20px;
+  transition: all 0.5s ease;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #6B030A;
+  width: 56px;
+  height: 56px;
+  transition: all 0.5s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 15px;
+
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #733d41;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+.ctaM {
+  position: relative;
+  margin: auto;
+  padding: 15px 20px;
+  transition: all 0.5s ease;
+}
+
+.ctaM:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #6B030A;
+  width: 56px;
+  height: 56px;
+  transition: all 0.5s ease;
+}
+
+.ctaM span {
+  position: relative;
+  font-size: 15px;
+
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.ctaM svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.ctaM:hover:before {
+  width: 100%;
+  background: #733d41;
+}
+
+.ctaM:hover svg {
+  transform: translateX(0);
+}
+
+.ctaM:active {
+  transform: scale(0.96);
+}
+
+
+.infoMotivos {
+  width: auto;
+  height: 530px;
+
+  background-color: #403D33;
+  border-radius: 70px 0 70px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoMotivos p {
+  font-size: 20px;
+  margin: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .infoMotivos {
+    height: auto;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .infoMotivos p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .seccionEscribenos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .btn-escribenos {
+    display: flex;
+    margin: auto 60px;
+    justify-content: center;
+  }
+  .ctaM:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #6B030A;
+    width: 56px;
+    height: 80px;
+    transition: all 0.5s ease;
+  }
+  .canales {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+  
+  }
+
+} 
+

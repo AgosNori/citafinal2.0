@@ -1,0 +1,178 @@
+
+.headerNav {
+    width: auto;
+    background-color: #7B7263;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    height: 130px;
+
+}
+
+.headerNav .logoNav {
+    width: 8em;
+    height: 5em;
+}
+
+.headerNav .navNav ul li a {
+    color: black;
+}
+
+.navNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navNav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    background-color: #7B7263;
+}
+
+.nav-btn {
+    width: 10px;
+    height: 10px;
+}
+
+.headerNav .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+.dropdown-menu {
+
+    left: 0;
+    width: 300px;
+
+    background: #7B7263;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5;
+    flex-direction: column;
+}
+
+
+.dropdown-menu li {
+    list-style: none;
+    text-align: centER;
+
+}
+
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+}
+
+.dropdown-menu li:hover {
+    background-color: #555;
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .headerNav {
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+
+    }
+
+    .logoNav {
+        margin-left: 40px;
+
+    }
+
+    .nav-btn {
+        margin-right: 40px;
+
+    }
+
+
+    .headerNav .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .headerNav .responsive_nav {
+        transform: translateY(100vh);
+
+    }
+
+    .navNav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .navNav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navNav a {
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .dropdown-menu {
+        background: none;
+        border: none;
+        left: auto;
+        justify-content: center;
+        height: auto;
+
+    }
+
+    .headerNav .navNav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #7B7263;
+        transition: 2s;
+   
+
+    }
+
+    .navNav .dropdown-menu {
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+
+
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .navNav ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .dropdown-menu li a {
+        font-size: 20px;
+    }
+}

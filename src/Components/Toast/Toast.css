@@ -1,0 +1,93 @@
+.toast-contai{
+    background-color: rgba(107, 3, 10, 0.817);
+    position:fixed;
+    right: 50px;
+    bottom: 60px;
+    width: 50%;
+    max-width: 200px;
+    border-radius: 10px;
+    z-index: 1000;
+    height: 160px;
+}
+.toast-contai{
+    flex-direction:column;
+}
+
+.texto{
+
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.sayNo{
+    background-color:rgba(0, 0, 0, 0.0);
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 60px;
+    cursor: pointer;
+
+}
+.sayNo-hover{
+    background-color:rgba(0, 0, 0, 0.0);
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 60px;
+    cursor: pointer;  
+    animation: animacionBtn 0.5s ease-in;
+}
+.sayYes{
+    margin-left: 20px;
+    margin-right:10px;
+    background-color:rgba(0, 0, 0, 0.0);
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 60px;
+    cursor: pointer; 
+}
+.toast-contai-hidden{
+    background-color: transparent;
+    color: transparent;
+    display: none;
+}
+.sayYes-hover{
+    background-color:rgba(0, 0, 0, 0.0);
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 60px;
+    cursor: pointer;  
+    animation: animacionBtn 0.5s ease-in;
+}
+.sayNoOnMouse{
+    background-color: #2B2A4C;
+    color: white;
+}
+.sayYesOnMouse{
+    background-color: #2B2A4C;
+    color: white;
+}
+@keyframes animacionBtn{
+    from{
+        background-color:rgba(0, 0, 0, 0.0);
+        color: rgb(0, 0, 0);
+    }
+    to{
+        background-color: #2B2A4C;
+            color: white;
+        }
+    }
+.buttonsToast{
+    display: inline;
+ margin-left: 50px;
+
+}
+.contenido{
+    display: grid;
+    flex-direction:row-reverse;
+}
+.textButtonToast{
+    font-size:25px ;
+    font-family: "PT Sans Narrow", sans-serif;
+}

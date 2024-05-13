@@ -1,0 +1,78 @@
+
+.con {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.pastor-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+}
+
+.pastor-image {
+  width: 100%; 
+  max-width: 450px; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.pastor-details {
+  margin-top: 20px; 
+}
+
+.pastor-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pastor-role {
+  font-style: italic;
+  color: #666;
+  margin-top: 10px; 
+}
+
+.pastor-description {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.pastor-description p {
+  margin-bottom: 15px;
+}
+
+
+.titulo-ministerios {
+  text-align: center;
+  margin: 20px 0; 
+}
+
+
+.ministe {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 20px; 
+}
+
+.btn-minist {
+  background-color: white;
+  width: 160px;
+  height: 70px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-minist:hover {
+  background-color: black;
+  color: beige;
+}

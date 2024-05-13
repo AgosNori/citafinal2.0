@@ -1,0 +1,133 @@
+.fotoMujeres {
+  margin-top: -0px;
+  height: 80vh;
+  background: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\flores.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.fotoMujeres .versiculo {
+  color: white;
+  font-size: 20px;
+
+}
+
+.parallaxMujeres {
+  padding: 20% 0;
+  width: 80%;
+  display: flex;
+}
+
+.parallaxMujeres h1 {
+  font-size: 60px;
+  color: #ffffff;
+  text-align: end;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.cardsInfo {
+  width: 50%;
+
+
+  background-color: #857F74;
+  display: flex;
+  justify-content: center;
+}
+
+.CardWomen .cardsInfo .fondoCard {
+  margin: auto;
+
+  width: 70%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.discipuladosMuj {
+  margin-top: 30px;
+}
+
+.CardWomen {
+  display: flex;
+
+
+}
+
+.CardWomen .img {
+  width: 50%;
+}
+
+.CardWomen .img img {
+  width: 100%;
+
+
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.lugarHorarioMujeres {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.horarios-mujeres h3 {
+  display: flex;
+}
+
+.tabla {
+  margin: 40px 40px;
+}
+
+.lugar-mujeres {
+  color: #000000;
+}
+
+.btn-mujeres {
+  display: flex;
+  margin: 20px;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 30px;
+
+  font-size: 16px;
+
+  width: 150px;
+
+  height: 50px;
+
+}
+
+.como-llegar {
+  margin: 10px 40px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .CardWomen {
+    flex-direction: column;
+
+  }
+
+  .CardWomen .cardsInfo,
+  .CardWomen .img {
+
+    width: 100%;
+  }
+  .cardMujeres{
+    margin-top: 20px;
+  }
+
+  .parallaxMujeres h1 {
+    font-size: 40px;
+  }
+}
