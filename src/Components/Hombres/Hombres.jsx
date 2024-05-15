@@ -17,16 +17,16 @@ function Hombres() {
       </div>
 
       <div className="cardImagenesHombres">
-        <div className="card">
+        <div className="cardH">
           <img src="public\img\FOTOS EVANGELIZACION\Hombres1.jpg" alt="" />
         </div>
-        <div className="card">
+        <div className="cardH">
           <img src="public\img\FOTOS EVANGELIZACION\Hombres2.jpg" alt="" />
         </div>
-        <div className='card'>
+        <div className='cardH'>
           <img src='public\img\FOTOS EVANGELIZACION\Hombres3.jpg'></img>
         </div>
-        <div className='card'>
+        <div className='cardH'>
           <img src='public\img\FOTOS EVANGELIZACION\Hombres4.jpg'></img>
         </div>
       </div>
