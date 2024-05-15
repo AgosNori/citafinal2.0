@@ -14,10 +14,9 @@
 }
 
 .parallax-inner-Home h1 {
-  font-size: 30px;
-  color: #3a3a3a;
-  font-weight: 500;
-  letter-spacing: 2px;
+  width: 80%;
+  color: #2a2a2a;
+  margin: 0 90px;
 }
 
 
@@ -34,7 +33,7 @@
 }
 
 
-.btnHome  {
+.btnHome {
   background-color: #6B030A;
   width: 200px;
   height: 50px;
@@ -305,6 +304,7 @@ p:nth-of-type(3) {
 .cta:active {
   transform: scale(0.96);
 }
+
 .ctaM {
   position: relative;
   margin: auto;
@@ -391,17 +391,20 @@ p:nth-of-type(3) {
     font-size: 18px;
     margin: 10px 0;
   }
+
   .seccionEscribenos {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
     align-items: center;
   }
+
   .btn-escribenos {
     display: flex;
     margin: auto 60px;
     justify-content: center;
   }
+
   .ctaM:before {
     content: "";
     position: absolute;
@@ -414,13 +417,32 @@ p:nth-of-type(3) {
     height: 80px;
     transition: all 0.5s ease;
   }
+
   .canales {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
     margin-bottom: 250px;
-  
+
   }
 
-} 
+  .parallax-inner-Home {
+    margin: 0 auto;
+    justify-content: center;
+ 
 
+
+    padding-top: 40vh;
+
+  }
+
+  .parallax-inner-Home h1 {
+    width: 150%;
+
+    font-size: 2rem;
+
+    margin: 0;
+
+  }
+
+}
