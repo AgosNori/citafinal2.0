@@ -125,19 +125,46 @@
     .cardH {
         width: 80%;
         height: 500px;
-      
+      margin-bottom: 50px;
     
     }
     .cardH img{
         display: flex;
         justify-content: center;
     }
+    .parallax-inner {
+        margin: 0 auto; /* Centrar el contenido */
+        text-align: center; /* Centrar el texto */
+        padding-top: 20vh; /* Ajustar el espacio superior */
+    }
+
+    .parallax-inner h1 {
+        width: 100%; /* Ajustar el ancho del texto */
+        font-size: 2.5rem; /* Tamaño de fuente más pequeño */
+        margin: 0; /* Eliminar el margen horizontal */
+    }
+
+    
 }
 
 @media screen and (max-width: 480px) {
     .cardH {
         width: 80%;
         height: 500px;
+        margin-bottom: 50px;
     
     }
+    .parallax-inner {
+        margin: 0 auto; /* Centrar el contenido */
+        text-align: center; /* Centrar el texto */
+        padding-top: 20vh; /* Ajustar el espacio superior */
+    }
+
+    .parallax-inner h1 {
+        width: 100%; /* Ajustar el ancho del texto */
+        font-size: 2.5rem; /* Tamaño de fuente más pequeño */
+        margin: 0; /* Eliminar el margen horizontal */
+    }
+
+   
 }
