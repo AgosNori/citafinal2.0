@@ -74,42 +74,93 @@
   flex-direction: row-reverse;
 
 }
-
 .lugarHorarioMujeres {
-  display: flex;
-  margin-bottom: 100px;
+  background-color: #6e6858;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #ecf0f1;
 }
 
-.horarios-mujeres h3 {
-  display: flex;
+.horarios-mujeres h3,
+.lugar-mujeres h3 {
+  text-align: center;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  font-weight: 300;
 }
 
 .tabla {
-  margin: 40px 40px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #6e6858;
+}
+
+.fila:nth-child(odd) {
+  background-color: #6e6858;
+}
+
+.columna {
+  flex: 1;
+  text-align: center;
+  color: #bdc3c7;
+  padding: 10px;
+}
+
+.columna:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.columna:last-child {
+  text-align: right;
+  padding-right: 20px;
 }
 
 .lugar-mujeres {
-  color: #000000;
-}
-
-.btn-mujeres {
-  display: flex;
-  margin: 20px;
-  color: black;
-  border: 2px solid black;
-  padding: 10px 30px;
-
-  font-size: 16px;
-
-  width: 150px;
-
-  height: 50px;
-
+  text-align: center;
+  margin-top: 40px;
 }
 
 .como-llegar {
-  margin: 10px 40px;
-  margin-bottom: 20px;
+  width: 120px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.boton-mujeres {
+  margin-top: 20px;
+}
+
+.btn-mujeres {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #6B030A;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-mujeres:hover {
+  background-color: #6b030a7b;
 }
 
 @media screen and (max-width: 768px) {
