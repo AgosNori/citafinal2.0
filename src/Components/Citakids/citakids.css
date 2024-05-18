@@ -163,3 +163,9 @@ h3 {
   width: 500px;
   pointer-events: none;
 }
+
+@media screen and (max-width: 480px) {
+  .parallax-kids p {
+    text-align: justify;
+  }
+}

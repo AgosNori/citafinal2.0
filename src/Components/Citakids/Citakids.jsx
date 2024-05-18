@@ -81,7 +81,7 @@ function Citakids({ images }) {
       <div className="video-containerKids">
         <video
           className="videoKids"
-          src="public/img/imagenes/KID SABADOS.mp4"
+          src="public\img\imagenes\kidsabados.mp4"
           controls
           autoPlay
           loop
