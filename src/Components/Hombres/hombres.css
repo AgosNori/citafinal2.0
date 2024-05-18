@@ -151,7 +151,7 @@
         justify-content: center;
     }
 
-    .parallax-inner {
+    .parallax-innerHombres {
         margin: 0 auto;
         /* Centrar el contenido */
         text-align: center;
@@ -160,7 +160,7 @@
         /* Ajustar el espacio superior */
     }
 
-    .parallax-inner h1 {
+    .parallax-innerHombres h2 {
         width: 100%;
         /* Ajustar el ancho del texto */
         font-size: 2.5rem;
