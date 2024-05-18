@@ -1,57 +1,43 @@
-.texto-bienvenida-jovenes {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 3rem;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.fotoprincipalJovenes {
+    margin-top: 0px;
+    height: 80vh;
+    background: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\Jovenes1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.img-jov {
-    width: 100%;
-    height: auto;
-    max-height: 600px;
-}
-
-h2 {
-    text-align: center;
-}
-
-.ados-imagenes {
+.parallax-inner-Jovenes {
+    padding: 20% 0;
+    width: 50%;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    background-color: #333447;
-    color: white;
-    margin: 20px;
 }
 
-p {
-    text-align: justify;
+.parallax-inner-Jovenes h2 {
+    font-size: 60px;
+    color: #ffffff;
     margin: 30px;
+    text-align: end;
+    font-weight: 500;
+    letter-spacing: 3px;
 }
 
-.img-ados {
-    width: 100%;
-    height: auto;
-    margin: 20px;
-}
-
-.pre-imagenes {
+.descJovenes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    background-color: #333447;
+    align-items: center;
+    text-align: justify;
     padding: 20px;
+    color: #333;
 }
 
-.img-pre {
-    width: 100%;
-    height: auto;
-    margin: 20px;
+.descJovenes p {
+    max-width: 80%;
 }
+
+
+
+
 
 .cuadro-imagenes {
     display: flex;
@@ -72,10 +58,10 @@ p {
 
 
 @media only screen and (max-width: 768px) {
-    
+
 
     .texto-bienvenida-jovenes {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     .img-jov {
@@ -85,31 +71,38 @@ p {
     .ados-imagenes,
     .pre-imagenes,
     .cuadro-imagenes {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .img-ados,
     .img-pre,
     .img-cuadro {
-        width: 80%; 
+        width: 80%;
         max-width: 300px;
-        margin: 10px 0; 
+        margin: 10px 0;
     }
 }
+
 @media only screen and (max-width: 768px) {
-    /* Estilos para dispositivos móviles */
+
     .texto-bienvenida-jovenes {
         font-size: 1.5rem;
-        
+
     }
+
     .texto-bienvenida-jovenes {
-        display:none;
-        
+        display: none;
+
     }
+
     .img-jov {
         max-height: 300px;
     }
 
-    /* Ajustes adicionales según sea necesario */
+    .parallax-inner-Jovenes h2 {
+        margin: 120px 40px;
+        font-size: 40px;
+
+    }
 }

@@ -14,7 +14,7 @@ function Matrimonios() {
 
 
       <div className="texto-matrimonio">
-        <h2 className="subtitulo.-matrimonio">
+        <h2 className="subtitulo-matrimonio">
           Acerca del Ministerio de Matrimonios.
         </h2>
         <div className="parrafoMatri">

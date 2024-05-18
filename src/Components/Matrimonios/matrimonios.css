@@ -160,7 +160,10 @@
   align-items: center;
   color: #000;
 }
-
+.subtitulo-matrimonio{
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (max-width: 768px) {
   

@@ -33,7 +33,7 @@ function Musicos({ images }) {
                     ></iframe> */}
                     <div className="drop1-musicos">
                         <h2>Desarrollá tu don al servicio de Dios!</h2>
-                        <img className="imagen-musicos" src="public\img\imagenes\musicosbanner.jpeg"></img>
+                        <img className="imagen-musicos" src="public\img\imagenes\bannerMusicos.jpeg"></img>
                     </div>
 
                 </div>
@@ -96,7 +96,7 @@ function Musicos({ images }) {
             </section>
             <div><br></br></div>
 
-            
+
         </div>
     );
 }

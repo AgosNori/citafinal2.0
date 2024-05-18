@@ -1,16 +1,15 @@
-/* Reset de estilos */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilos de la sección de músicos */
 .contMusicos {
   width: 100%;
 }
 
-/* Estilos del menú desplegable */
+
 .drop1-musicos {
   position: relative;
 }
@@ -45,7 +44,7 @@
   color: #6b030a;
 }
 
-/* Estilos de la barra de navegación */
+
 .nav-seccion-musicos {
   background-color: #333;
   padding: 10px;
@@ -81,7 +80,7 @@
   background-color: #555;
 }
 
-/* Estilos de la sección de videos */
+
 .video-section-musicos {
   background-color: rgb(97, 60, 232);
 }
@@ -91,7 +90,7 @@
   margin-left: 190px;
 }
 
-/* Estilos de la sección de imágenes */
+
 .imagen-musicos {
   width: 100%;
   height: 600px;
@@ -114,49 +113,52 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilos de los párrafos */
+
 .paragraphs-musicos {
   background-color: #fff;
-  margin-bottom: 10px;
   margin: 20px;
 }
 
 .paragraphs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
   margin-top: 20px;
   text-align: center;
-  flex-wrap: wrap; /* Añadido */
+  flex-wrap: wrap; 
+  width: 80%;
+
 }
 
 .paragraph {
   flex-basis: 45%;
   text-align: center;
-  margin: 40px;
-  flex-grow: 1; /* Añadido */
-  flex-shrink: 1; /* Añadido */
+  margin: 20px;
+  flex-grow: 1;
+  flex-shrink: 1; 
+}
+.paragraph p{
+   text-align: justify;
+ 
 }
 
-/* Estilos de las tarjetas de músicos */
 .tarjetas-musicos {
-  background-color: #1e2f46;
-  margin-top: 10px;
   width: auto;
   height: 600px;
   flex-wrap: wrap;
-  display: flex; /* Añadido */
-  justify-content: space-between; /* Añadido */
-  padding: 0 20px; /* Ajuste de padding */
-  box-sizing: border-box; /* Ajuste de box-sizing */
+  display: flex; 
+  justify-content: space-between; 
+  padding: 0 20px;
+  box-sizing: border-box; 
 }
 
 .tarjetas {
   width: 100%;
-  display: flex; /* Añadido */
-  flex-wrap: wrap; /* Añadido */
-  justify-content: space-between; /* Añadido */
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 10px;
-  height: auto; /* Cambiado de 550px a auto */
+  height: auto; 
 }
 
 .tarj {
@@ -207,13 +209,14 @@
   text-align: center;
 }
 
-/* Estilos del footer */
+
 .footer-musica {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(55, 59, 59);
   padding: 20px;
+
 }
 
 .musica-logo img {
@@ -262,7 +265,7 @@
   margin: 0 10px;
 }
 
-/* Media queries para hacer responsive */
+
 @media screen and (max-width: 768px) {
   .musica-links {
       display: flex;

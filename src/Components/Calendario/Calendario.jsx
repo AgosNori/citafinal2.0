@@ -6,7 +6,7 @@ function Calendario() {
       <main className="grid">
         <section className="content item1">
           <h1>Futuros Eventos</h1>
-          <p>Aquí encontrarás toda la informacion de los eventos que se avecinan!</p>
+          <p>Aquí encontrarás toda la información de los eventos que se avecinan!</p>
         </section>
         <section className="cardC item2">
           <h2>Reunion de Jóvenes Sábados 20:00hs </h2>

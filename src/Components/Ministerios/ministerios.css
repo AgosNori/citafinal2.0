@@ -130,6 +130,7 @@
 
 .referente-minist {
   display: flex;
+
 }
 
 .minis-image {
@@ -204,33 +205,35 @@
     font-weight: 100;
     letter-spacing: 1px;
     position: absolute;
-    top: 50%; /* Alinea verticalmente al 50% del banner */
-    left: 50%; /* Alinea horizontalmente al 50% del banner */
-    transform: translate(-50%, -50%); /* Centra el texto */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
-  .referente-minist{
+
+  .referente-minist {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .minis-image {
-    margin: 20px;
-    width: 50%;
+    margin: 40px;
+    width: 100%;
+
     height: 200px;
     border-radius: 20px;
     box-shadow: #ffffff;
-    margin-right: 60px;
+
   }
 
   .ref-name,
   .role,
   .referente-ministerio p {
     text-align: center;
-   margin: 10px;
+    margin: 10px;
   }
+
   .role {
-    margin-top: 0; /* Elimina el margen superior para que esté alineado con los otros elementos */
+    margin-top: 0;
   }
 }

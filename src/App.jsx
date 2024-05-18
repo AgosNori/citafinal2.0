@@ -189,6 +189,7 @@ function App() {
               element={
                 <>
                   <Navbar />
+                  <NavBorde/>
                   <Musicos images={musicosImages} /> <FooterMusic />
                 </>
               }
@@ -249,6 +250,7 @@ function App() {
                   {" "}
                   <Navbar />
                   <Jovenes images={jovenesImages} />
+                  <NavBorde/>
                   <Footer />
                   <Toast />{" "}
                 </>
@@ -260,6 +262,7 @@ function App() {
                 <>
                   <Navbar />
                   <Campamento campamentoImages={campamentoImages} />
+                  <NavBorde/>
                   <FooterMusic />
                   <Toast />
                 </>

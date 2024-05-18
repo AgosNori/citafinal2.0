@@ -37,7 +37,7 @@
   justify-content: center;
 }
 
-.CardWomen .cardsInfo .fondoCard {
+.CardMyJ .cardsInfo .fondoCard {
   margin: auto;
 
   width: 70%;
@@ -49,21 +49,21 @@
 
 }
 
-.discipuladosMuj {
+.discipuladosMyJ {
   margin-top: 30px;
 }
 
-.CardWomen {
+.CardMyJ {
   display: flex;
 
 
 }
 
-.CardWomen .img {
+.CardMyJ .img {
   width: 50%;
 }
 
-.CardWomen .img img {
+.CardMyJ .img img {
   width: 100%;
 
 
@@ -106,6 +106,7 @@
   justify-content: space-between;
   padding: 15px 0;
   border-bottom: 1px solid #6e6858;
+
 }
 
 .fila:nth-child(odd) {
@@ -116,6 +117,7 @@
   flex: 1;
   text-align: center;
   color: #bdc3c7;
+
   padding: 10px;
 }
 
@@ -165,18 +167,18 @@
 }
 
 @media screen and (max-width: 768px) {
-  .CardWomen {
+  .CardMyJ {
     flex-direction: column;
 
   }
 
-  .CardWomen .cardsInfo,
-  .CardWomen .img {
+  .CardMyJ .cardsInfo,
+  .CardMyJ .img {
 
     width: 100%;
   }
 
-  .cardMujeres {
+  .cardMyJ {
     margin-top: 20px;
   }
 

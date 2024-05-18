@@ -41,6 +41,7 @@
 
 .pastor-description p {
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 
@@ -74,4 +75,10 @@
 .btn-minist:hover {
   background-color: black;
   color: beige;
+}
+@media screen and (max-width: 768px) {
+
+  .pastor-description p {
+    text-align: justify;
+  }
 }
