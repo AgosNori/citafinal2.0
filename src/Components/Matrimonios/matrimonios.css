@@ -1,5 +1,25 @@
-.matrimonios {
-  position: relative;
+
+.fotoprincipalMatrimonios {
+  margin-top: -0px;
+  height: 80vh;
+  background: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\Matrimonios1.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parallax-inner-Matrimonios {
+  padding: 20% 0;
+  width: 50%;
+  display: flex;
+}
+
+.parallax-inner-Matrimonios h2 {
+  font-size: 60px;
+  color: #ffffff;
+  text-align: end;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .titulo-matrim {
@@ -23,22 +43,33 @@
 .texto-matrimonio {
   margin: 20px 0;
   text-align: justify;
+  
+}
+.parrafoMatri{
+  display: flex;
+  justify-content: center;
+
+}
+.texto-matrimonio p{
+  width: 80%;
+
 }
 
 .lugar-horario {
   width: 100%;
-  height: 300px;
+ border-radius: 60px;
+  height: auto;
   background-image: url('img/imagenes/pareja.jpeg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 1, 0, 3.5);
 }
 
-.horarios-matrimonios .tabla {
-  margin: 20px 0;
+.horarios-matrimonios h3 {
+ color: #ffffff;
 }
 
-.tabla {
+.tablaM {
   display: table;
   width: 70%;
   margin: 0 auto;
@@ -47,12 +78,12 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.fila {
+.filaM {
   display: table-row;
   text-align: center;
 }
 
-.columna {
+.columnaM {
   display: table-cell;
   border: 1px solid #000;
   padding: 10px;
@@ -110,7 +141,7 @@
   border: solid 1px black;
   border-radius: 10px;
   overflow: hidden;
-  background-color: rgba(102, 8, 8, 0.507);
+  background-color:#686868;
   margin: 10px;
 }
 
@@ -130,15 +161,9 @@
   color: #000;
 }
 
-/* Media queries */
-@media screen and (max-width: 768px) {
-  .titulo-matrim {
-    font-size: 3rem;
-  }
 
-  .img-matrimonios {
-    max-height: 300px;
-  }
+@media screen and (max-width: 768px) {
+  
 
   .texto-matrimonio {
     margin: 10px 0;
@@ -179,12 +204,8 @@
 }
 
 @media screen and (max-width: 480px) {
-  .titulo-matrim {
-    font-size: 2rem;
-  }
-
-  .img-matrimonios {
-    max-height: 200px;
+  .parallaxM h1 {
+    font-size: 40px;
   }
 
   .texto-matrimonio {

@@ -74,6 +74,7 @@
   flex-direction: row-reverse;
 
 }
+
 .lugarHorarioMujeres {
   background-color: #6e6858;
   padding: 30px;
@@ -174,11 +175,13 @@
 
     width: 100%;
   }
-  .cardMujeres{
+
+  .cardMujeres {
     margin-top: 20px;
   }
 
-  .parallaxMujeres h1 {
+  .parallax-inner-Matrimonios h2 {
+    margin: 120px 40px;
     font-size: 40px;
   }
 }

@@ -4,50 +4,54 @@ import { Link } from "react-router-dom";
 function Matrimonios() {
   return (
     <div className="matrimonios">
-      <div className="titulo">
-        <h2 className="titulo-matrim">Ministerio de Matrimonios</h2>
+      <div className="BannerMatrimonios">
+        <div className="fotoprincipalMatrimonios">
+          <div className="parallax-inner-Matrimonios">
+            <h2>Ministerios de Matrimonios</h2>
+          </div>
+        </div>
       </div>
 
-      <img
-        className="img-matrimonios "
-        src="public\img\imagenes\Matrimonios1.jpeg"
-      ></img>
+
       <div className="texto-matrimonio">
         <h2 className="subtitulo.-matrimonio">
           Acerca del Ministerio de Matrimonios.
         </h2>
-        <p>
-          La bondad de Dios promueve el matrimonio: Dios creó el matrimonio para
-          ser una bendición y una ayuda mutua. Es importante entender que, en su
-          mayoría, la voluntad de Dios es que las personas se casen. La Biblia
-          también nos advierte sobre precipitarnos en relaciones matrimoniales
-          sin considerar la voluntad de Dios. Recordemos que Dios tiene un plan
-          perfecto para nuestras vidas, y buscarlo a él primero es fundamental.
-          Romanos 12:2 y Jeremías 29:11 nos aseguran que sus planes son buenos y
-          beneficiosos. Casarse con un Cristiano comprometido: Proverbios 21:9 y
-          25:24 advierten sobre las consecuencias de casarse equivocadamente.
-          Buscar un cónyuge comprometido con Cristo es esencial. 2 Corintios
-          6:14-18 nos enseña sobre no unirnos en yugo desigual con no creyentes.
-          El matrimonio debe ser una unión centrada en Cristo. Prioridad en el
-          matrimonio: Mateo 6:33 nos recuerda buscar primero el reino de Dios.
-          Mantener a Dios como nuestra prioridad más importante es esencial. 1
-          Corintios 7:32-35 aconseja a los solteros y casados a enfocarse en
-          servir al Señor sin distracciones. El ministerio de matrimonios debe
-          fomentar la unidad, el crecimiento espiritual y la adoración a Dios en
-          la relación conyugal.
-        </p>
+        <div className="parrafoMatri">
+          <p>
+            La bondad de Dios promueve el matrimonio: Dios creó el matrimonio para
+            ser una bendición y una ayuda mutua. Es importante entender que, en su
+            mayoría, la voluntad de Dios es que las personas se casen. La Biblia
+            también nos advierte sobre precipitarnos en relaciones matrimoniales
+            sin considerar la voluntad de Dios. Recordemos que Dios tiene un plan
+            perfecto para nuestras vidas, y buscarlo a él primero es fundamental.
+            Romanos 12:2 y Jeremías 29:11 nos aseguran que sus planes son buenos y
+            beneficiosos. Casarse con un Cristiano comprometido: Proverbios 21:9 y
+            25:24 advierten sobre las consecuencias de casarse equivocadamente.
+            Buscar un cónyuge comprometido con Cristo es esencial. 2 Corintios
+            6:14-18 nos enseña sobre no unirnos en yugo desigual con no creyentes.
+            El matrimonio debe ser una unión centrada en Cristo. Prioridad en el
+            matrimonio: Mateo 6:33 nos recuerda buscar primero el reino de Dios.
+            Mantener a Dios como nuestra prioridad más importante es esencial. 1
+            Corintios 7:32-35 aconseja a los solteros y casados a enfocarse en
+            servir al Señor sin distracciones. El ministerio de matrimonios debe
+            fomentar la unidad, el crecimiento espiritual y la adoración a Dios en
+            la relación conyugal.
+          </p>
+        </div>
+
       </div>
       <div className="lugar-horario">
         <div className="horarios-matrimonios">
           <h3>Nuestros Horarios de Reunión.</h3>
-          <div className="tabla">
-            <div className="fila">
-              <div className="columna">Días</div>
-              <div className="columna">Horario</div>
+          <div className="tablaM">
+            <div className="filaM">
+              <div className="columnaM">Días</div>
+              <div className="columnaM">Horario</div>
             </div>
-            <div className="fila">
-              <div className="columna">Jueves</div>
-              <div className="columna">20:00 hs.</div>
+            <div className="filaM">
+              <div className="columnaM">Jueves</div>
+              <div className="columnaM">20:00 hs.</div>
             </div>
           </div>
         </div>

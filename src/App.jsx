@@ -168,7 +168,7 @@ function App() {
               path="/matrimonios"
               element={
                 <>
-                  <Navbar /> <Matrimonios images={matrimoniosImages} />
+                  <Navbar /> <NavBorde/><Matrimonios images={matrimoniosImages} />
                   <Footer />{" "}
                 </>
               }
