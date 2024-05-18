@@ -13,9 +13,18 @@
     background-attachment: fixed;
 }
 
-.parallax-inner h1 {
+.parallax-innerHombres {
+    padding: 20% 0;
     width: 80%;
-    color: #2a2a2a;
+    display: flex;
+}
+
+.parallax-innerHombres h2 {
+    width: 80%;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
     margin: 0 90px;
 }
 
@@ -49,6 +58,12 @@
     left: 0;
 }
 
+.cardImagenesHombres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
 .cardH {
     width: 24rem;
     height: 36rem;
@@ -56,7 +71,8 @@
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.432);
+    margin-bottom: 50px;
 }
 
 .cardH img {
@@ -115,36 +131,45 @@
 }
 
 @media screen and (max-width: 768px) {
-    .cardImagenesHombres{
+    .cardImagenesHombres {
         width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+
     }
+
     .cardH {
         width: 80%;
         height: 500px;
-      margin-bottom: 50px;
-    
+        margin-bottom: 50px;
+
     }
-    .cardH img{
+
+    .cardH img {
         display: flex;
         justify-content: center;
     }
+
     .parallax-inner {
-        margin: 0 auto; /* Centrar el contenido */
-        text-align: center; /* Centrar el texto */
-        padding-top: 20vh; /* Ajustar el espacio superior */
+        margin: 0 auto;
+        /* Centrar el contenido */
+        text-align: center;
+        /* Centrar el texto */
+        padding-top: 20vh;
+        /* Ajustar el espacio superior */
     }
 
     .parallax-inner h1 {
-        width: 100%; /* Ajustar el ancho del texto */
-        font-size: 2.5rem; /* Tamaño de fuente más pequeño */
-        margin: 0; /* Eliminar el margen horizontal */
+        width: 100%;
+        /* Ajustar el ancho del texto */
+        font-size: 2.5rem;
+        /* Tamaño de fuente más pequeño */
+        margin: 0;
+        /* Eliminar el margen horizontal */
     }
 
-    
+
 }
 
 @media screen and (max-width: 480px) {
@@ -152,19 +177,26 @@
         width: 80%;
         height: 500px;
         margin-bottom: 50px;
-    
+
     }
+
     .parallax-inner {
-        margin: 0 auto; /* Centrar el contenido */
-        text-align: center; /* Centrar el texto */
-        padding-top: 20vh; /* Ajustar el espacio superior */
+        margin: 0 auto;
+        /* Centrar el contenido */
+        text-align: center;
+        /* Centrar el texto */
+        padding-top: 20vh;
+        /* Ajustar el espacio superior */
     }
 
     .parallax-inner h1 {
-        width: 100%; /* Ajustar el ancho del texto */
-        font-size: 2.5rem; /* Tamaño de fuente más pequeño */
-        margin: 0; /* Eliminar el margen horizontal */
+        width: 100%;
+        /* Ajustar el ancho del texto */
+        font-size: 2.5rem;
+        /* Tamaño de fuente más pequeño */
+        margin: 0;
+        /* Eliminar el margen horizontal */
     }
 
-   
+
 }

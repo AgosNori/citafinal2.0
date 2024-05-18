@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+
 import "./Nav2.css";
 
 function Navbar() {
@@ -28,6 +29,7 @@ function Navbar() {
                         {activeDropdown === "ministerios" && (
                             <ul className="dropdown-menu">
                                 <li><a href="/hombres">Discipulado de Hombres</a></li>
+                                <li><a href="/mujeres">Discipulado de Mujeres</a></li>
                                 <li><a href="/matrimonios">Matrimonios</a></li>
                                 <li><a href="/citakids">Iglesia para Niños</a></li>
                                 <li><a href="/jovenes">Reunión de Jóvenes</a></li>

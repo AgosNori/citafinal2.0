@@ -91,3 +91,14 @@
     font-size:25px ;
     font-family: "PT Sans Narrow", sans-serif;
 }
+
+@media only screen and (max-width: 400px){
+    .toast-contai{
+        width: 40%;
+        height: 24%;
+    }
+    .sayYes{
+        width: 40px;
+        margin: 0;
+    }
+}

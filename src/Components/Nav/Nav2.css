@@ -1,4 +1,3 @@
-
 .headerNav {
     width: auto;
     background-color: #7B7263;
@@ -30,6 +29,25 @@
     list-style: none;
     gap: 30px;
     background-color: #7B7263;
+}
+.navNav ul li {
+    position: relative;
+    
+}
+
+.navNav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+}
+
+.navNav ul li:hover::after {
+    background-color: black; 
 }
 
 .nav-btn {
@@ -77,9 +95,11 @@
 
 .dropdown-menu li:hover {
     background-color: #555;
-
+   
 
 }
+
+
 
 
 
@@ -140,16 +160,16 @@
 
     .headerNav .navNav {
         position: fixed;
-        top: -100vh;
+        top: 0;
         left: 0;
-        height: 100%;
+        height: 100vh; 
         width: 100%;
         flex-direction: column;
         justify-content: center;
         background-color: #7B7263;
         transition: 2s;
-   
-
+        z-index: 1000; 
+        overflow-y: auto; 
     }
 
     .navNav .dropdown-menu {

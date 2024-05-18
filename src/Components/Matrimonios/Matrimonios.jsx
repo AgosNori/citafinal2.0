@@ -1,14 +1,13 @@
 import "./matrimonios.css";
-import { Helmet } from 'react-helmet';
+
 import { Link } from "react-router-dom";
 function Matrimonios() {
   return (
     <div className="matrimonios">
-       <Helmet>
-        <title>Ministerio de Matrimonios - Cita Con La Vida</title>
-        <link rel="icon" href="public/img/logos/Logo Oficial CitaMonte.ico" type="image/png" />
-      </Helmet>
-      <h2 className="titulo-matrim">Ministerio de Matrimonios</h2>
+      <div className="titulo">
+        <h2 className="titulo-matrim">Ministerio de Matrimonios</h2>
+      </div>
+
       <img
         className="img-matrimonios "
         src="public\img\imagenes\Matrimonios1.jpeg"
@@ -90,7 +89,7 @@ function Matrimonios() {
           <img className="img-card-matrimonio" src="public\img\imagenes\Matrimonios4.jpg"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://libreriapeniel.com/?s=matrimonio&post_type=product&type_aws=true" className="btn-card-matrimonio">
-           Libros.
+            Libros.
           </Link>
         </div>
       </section>
@@ -98,5 +97,5 @@ function Matrimonios() {
   );
 }
 
-export default Matrimonios; 
+export default Matrimonios;
 

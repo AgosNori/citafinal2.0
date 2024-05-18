@@ -5,8 +5,8 @@ function Hombres() {
   return (
     <div className='pageHombres'>
       <div className='bannerHombres'>
-        <div className="parallax-inner">
-          <h1>Discipulado de Hombres</h1>
+        <div className="parallax-innerHombres">
+          <h2>Discipulado de Hombres</h2>
         </div>
       </div>
       <div className="textoHombres">

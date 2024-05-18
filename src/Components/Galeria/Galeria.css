@@ -1,65 +1,65 @@
 .gallery-caption {
   
-    position: absolute;
-    bottom: 4rem;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0);
-    padding: 1.25em 1.5em;
-    transition: all 0.2s ease;
-    font-weight: 600;
-    line-height: 1.25;
-    text-align: center;
-    box-sizing: border-box;
-    pointer-events: none;
-  }
-  .gallery-container{
-    margin-top: 10px;
-  }
-  .gallery-caption:before,
-  .gallery-caption:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 1);
-    width: 100%;
-    height: 100%;
-    transition: all 0.3s ease 0s;
-    z-index: -1;
-  }
-  
-  .gallery-caption:before {
-    height: 3px;
-    transform: scaleX(0);
-    transform-origin: bottom left;
-    transition-delay: 0.6s;
-  }
-  
-  .gallery-caption:after {
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition-delay: 0.3s;
-  }
-  
-  .gallery-caption.visible {
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease 0.3s;
-  }
-  
-  .gallery-caption.visible:before {
-    transform: scaleX(1);
-    transition-delay: 0s;
-  }
-  
-  .gallery-caption.visible:after {
-    transform: scaleY(1);
-  }
-  
-  .gallery-caption:empty {
-    display: none;
-  }
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0);
+  padding: 1.25em 1.5em;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.gallery-container{
+  margin-top: 10px;
+}
+.gallery-caption:before,
+.gallery-caption:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+.gallery-caption:before {
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition-delay: 0.6s;
+}
+
+.gallery-caption:after {
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition-delay: 0.3s;
+}
+
+.gallery-caption.visible {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0.3s;
+}
+
+.gallery-caption.visible:before {
+  transform: scaleX(1);
+  transition-delay: 0s;
+}
+
+.gallery-caption.visible:after {
+  transform: scaleY(1);
+}
+
+.gallery-caption:empty {
+  display: none;
+}

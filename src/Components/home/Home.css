@@ -16,6 +16,7 @@
 .parallax-inner-Home h1 {
   width: 80%;
   color: #2a2a2a;
+  font-size: 2.4rem;
   margin: 0 90px;
 }
 
@@ -365,7 +366,6 @@ p:nth-of-type(3) {
 .infoMotivos {
   width: auto;
   height: 530px;
-
   background-color: #403D33;
   border-radius: 70px 0 70px 0;
   color: white;
@@ -423,24 +423,16 @@ p:nth-of-type(3) {
     gap: 50px;
     flex-wrap: wrap;
     margin-bottom: 250px;
-
   }
 
   .parallax-inner-Home {
     margin: 0 auto;
     justify-content: center;
- 
-
-
     padding-top: 40vh;
-
   }
-
   .parallax-inner-Home h1 {
     width: 150%;
-
     font-size: 2rem;
-
     margin: 0;
 
   }

@@ -1,9 +1,8 @@
 .matrimonios {
   position: relative;
-  padding: 20px;
 }
 
-.matrimonios .titulo-matrim {
+.titulo-matrim {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -29,7 +28,7 @@
 .lugar-horario {
   width: 100%;
   height: 300px;
-  background-image: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\pareja.jpeg');
+  background-image: url('img/imagenes/pareja.jpeg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 1, 0, 3.5);
@@ -39,14 +38,9 @@
   margin: 20px 0;
 }
 
-.lugar-horario h3 {
-  color: #fff;
-  text-align: center;
-}
-
 .tabla {
   display: table;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 10px;
   color: #fff;
@@ -141,44 +135,44 @@
   .titulo-matrim {
     font-size: 3rem;
   }
-  
+
   .img-matrimonios {
     max-height: 300px;
   }
-  
+
   .texto-matrimonio {
     margin: 10px 0;
   }
-  
+
   .lugar-horario {
     height: 200px;
   }
-  
+
   .tabla {
     width: 90%;
   }
-  
+
   .lugar-matrimonio h3 {
     font-size: 1.5rem;
   }
-  
+
   .btn-matrimonio {
     width: 140px;
     height: 60px;
   }
-  
+
   .titulo-recursos {
     margin: 20px auto;
   }
-  
+
   .card-matrimonios {
     width: 250px;
   }
-  
+
   .img-card-matrimonio {
     height: 150px;
   }
-  
+
   .btn-card-matrimonio {
     height: 45px;
   }
@@ -188,46 +182,46 @@
   .titulo-matrim {
     font-size: 2rem;
   }
-  
+
   .img-matrimonios {
     max-height: 200px;
   }
-  
+
   .texto-matrimonio {
     margin: 5px 0;
   }
-  
+
   .lugar-horario {
     height: 150px;
   }
-  
+
   .tabla {
     width: 100%;
   }
-  
+
   .lugar-matrimonio h3 {
     font-size: 1.2rem;
   }
-  
+
   .btn-matrimonio {
     width: 120px;
     height: 50px;
     font-size: 0.8rem;
   }
-  
+
   .titulo-recursos {
     margin: 10px auto;
     font-size: 1.5rem;
   }
-  
+
   .card-matrimonios {
     width: 200px;
   }
-  
+
   .img-card-matrimonio {
     height: 120px;
   }
-  
+
   .btn-card-matrimonio {
     height: 40px;
     font-size: 0.7rem;
