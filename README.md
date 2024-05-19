@@ -1,6 +1,6 @@
 # Proyecto Cita con la Vida Monte Cristo
 
-Este proyecto es una página web desarrollada en React para la iglesia "Cita con la Vida Monte Cristo". La misma incluye secciones dedicadas a diferentes ministerios, como hombres, mujeres, citakids, jovenes , etc. Además, cuenta con formularios de contacto y pedidos de oración, asi tambien una galería de imagenes con todo lo vivido durante las reuniones.
+Este proyecto es una página web desarrollada en React Vite para la iglesia "Cita con la Vida Monte Cristo". La misma incluye secciones dedicadas a diferentes ministerios, como hombres, mujeres, citakids, jovenes , etc. Además, cuenta con formularios de contacto y pedidos de oración, asi tambien una galería de imagenes con todo lo vivido durante las reuniones.
 
 ## Tecnologias usadas
  - React
