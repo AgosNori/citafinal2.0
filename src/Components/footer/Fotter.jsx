@@ -64,7 +64,7 @@ function Footer() {
             </div>
 
           </div>
-          {/* redes sociales */}
+       
           <div className='botonRedesSociales'>
             <div className="footer-social-links footer-call-to-action">
               <div className="share-button">

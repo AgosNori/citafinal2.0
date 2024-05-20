@@ -139,7 +139,7 @@ a {
 
 
 
-/*CODIGO DE LAS REDES SOCIALES */
+
 .footer-social-links .share-button a {
   text-decoration: none;
 }
@@ -149,7 +149,7 @@ a {
   display: inline-block;
   height: 45px;
   width: 250px;
-  /* Ancho ajustado */
+
   position: absolute;
   margin-left: 36%;
   top: 70%;
@@ -190,9 +190,9 @@ a {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-  /* Propiedad estándar */
+
   transform-style: preserve-3d;
-  /* Propiedad estándar */
+
 }
 
 
@@ -248,7 +248,7 @@ a {
 
 
 
-/* FIN DEL CODIGO DE LAS REDES SOCIALES*/
+
 
 .hidden-link-text {
   position: absolute;
@@ -305,10 +305,9 @@ a {
 
 }
 
-/* Media Query For different screens */
 @media (min-width:320px) and (max-width:479px) {
 
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
   .footer-content {
     margin-left:auto;
     margin-right: auto;
@@ -338,9 +337,9 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
   .share-button__back {
     background-color: #2a2a2a25;
@@ -356,7 +355,7 @@ a {
 
 @media (min-width:480px) and (max-width:599px) {
 
-  /* smartphones, Android phones, landscape iPhone */
+
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -386,16 +385,16 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
   
 }
 
 @media (min-width:600px) and (max-width: 800px) {
 
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -425,15 +424,15 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
 }
 
 @media (min-width:801px) {
 
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
   .share-button__front {
     display: flex;
     justify-content: center;
@@ -455,15 +454,15 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
 }
 
 @media (min-width:1025px) {
 
-  /* big landscape tablets, laptops, and desktops */
+
   .share-button__front {
     display: flex;
     justify-content: center;
@@ -485,15 +484,15 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
 }
 
 @media (min-width:1281px) {
 
-  /* hi-res laptops and desktops */
+
   .share-button__front {
     display: flex;
     justify-content: center;
@@ -515,9 +514,9 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
 
 }
@@ -544,11 +543,11 @@ a {
     margin-right: auto;
     display: block;
     width: fit-content;
-    /* Ajusta el ancho al contenido */
+
     padding: 10px 20px;
-    /* Ajusta el relleno */
+
     text-align: center;
-    /* Centra el texto */
+
   }
 
   .footer-wave-svg {
@@ -580,9 +579,9 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
   
 }
@@ -627,9 +626,9 @@ a {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    /* Propiedad estándar */
+
     transform-style: preserve-3d;
-    /* Propiedad estándar */
+
   }
 
   .share-button {
@@ -637,11 +636,11 @@ a {
     margin-right: auto;
     display: block;
     width: fit-content;
-    /* Ajusta el ancho al contenido */
+
     padding: 10px 20px;
-    /* Ajusta el relleno */
+
     text-align: center;
-    /* Centra el texto */
+
   }
 
 

@@ -21,7 +21,7 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px; /* Limita el ancho del formulario para que no se extienda demasiado en pantallas grandes */
+    max-width: 600px; 
   }
   .form-container h2{
     text-align: center;
@@ -54,7 +54,7 @@
   }
   
   .contact-form textarea {
-    resize: vertical; /* Permite al usuario redimensionar verticalmente el área de texto */
+    resize: vertical; 
   }
   
   .boton {

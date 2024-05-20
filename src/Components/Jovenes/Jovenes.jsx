@@ -46,7 +46,7 @@ function Jovenes({ images }) {
         </div>
       </div>
       <div className="cuadro-imagenes">
-        {/* Itera sobre las imágenes y muestra cada una */}
+    
         {images.map((image, index) => (
           <img key={index} className="img-cuadro" src={image} alt={`Imagen ${index + 1}`} />
         ))}

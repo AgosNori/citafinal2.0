@@ -1,5 +1,5 @@
 import "./campamento.css";
-//import ContentBox from "./contentBox";
+
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 function Campamento({ campamentoImages }) {
