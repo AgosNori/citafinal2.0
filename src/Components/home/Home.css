@@ -15,9 +15,11 @@
 
 .parallax-inner-Home h1 {
   width: 80%;
-  color: #2a2a2a;
+  color: #fff;
   font-size: 2.4rem;
   margin: 0 90px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 
