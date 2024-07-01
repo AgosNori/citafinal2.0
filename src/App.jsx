@@ -32,6 +32,7 @@ import Mujeres from "./Components/Pages/Mujeres/Mujeres";
 
 import Hombres from "./Components/Hombres/Hombres";
 import Navbar from "./Components/Nav/Nav";
+import Nav3 from "./Components/Nav/Nav3";
 
 
 function App() {
@@ -102,7 +103,7 @@ function App() {
               path="/"
               element={
                 <>{" "}
-                  <Navbar />  
+                  <Nav3/>  
                   <NavBorde />
                   {/* <Toast /> */}
                   <Home />

@@ -69,9 +69,9 @@ function Home() {
           <div className="seccionEscribenos">
             <div>
               <p className="parrafo-escribenos">
-                Por consultas, pedidos de oracion u otro motivo no dudes en
+                Por consultas, pedidos de oración u otro motivo no dudes en
                 contactarnos; alguien de nuestros colaboradores se pondra en
-                cintacto,
+                contacto.
               </p>
             </div>
             <div >

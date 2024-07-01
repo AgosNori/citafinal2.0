@@ -18,7 +18,7 @@ function Navbar() {
 
     return (
         <header className="headerNav">
-            <img className="logoNav" src="public\img\logos\Logo Oficial CitaMonte.png" alt="Logo"></img>
+            <img className="logoNav" src="public\img\logos\Logo RGB BLANCO.png" alt="Logo"></img>
             <nav className="navNav" ref={navRef}>
                 <ul>
                     <li>
